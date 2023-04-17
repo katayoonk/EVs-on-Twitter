@@ -1,0 +1,9 @@
+# Ignore Jupyter Notebook Saves
+.ipynb_checkpoints
+
+rawdata
+preprocesseddata
+imgs
+
+*.csv
+*.pptx

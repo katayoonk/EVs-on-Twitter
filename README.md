@@ -10,6 +10,10 @@
 
 For this project, tweets posted between January 1, 2020 and April 9, 2022, were scraped using a custom script that takes advantage of the Twitter Search API. Search was limited to English-language tweets to ensure the accuracy of sentiment analysis. For each tweet, the full text, the date and time it was posted, the username of the person who posted it, and the tweet ID were captured.
 
+Here is an example of how to use dataScraper.py script file in repo:
+
+`python dataScraper.py [Text] [Lang] [Until] [Since]`
+
 ## Data Preprocessing
 - Text Cleaning: To remove any unnecessary information or noise from the tweet text, all URLs, mentions, hashtags, and special characters were removed using regular expressions.Also, all text was converted to lowercase to standardize the format.
 - Filtering: Any tweets that did not mention a specific electric vehicle make or model were filtered out. 
@@ -24,4 +28,5 @@ AutoTokenizer and TFAutoModelForSequenceClassification classes from the Transfor
 After obtaining the sentiment scores, the compound sentiment score for each EV make and model was calculated. Also some exploratory data analysis was conducted to identify the most commonly discussed makes and models on Twitter and to visualize the overall sentiment distribution and see the trends over time. The results of the sentiment analysis provide valuable insights into public opinion on electric vehicles and can be used to inform business decisions in the EV industry.
 
 
-# Capstone
+# Exploratory Data Analysis
+

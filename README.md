@@ -30,3 +30,7 @@ After obtaining the sentiment scores, the compound sentiment score for each EV m
 
 # Exploratory Data Analysis
 
+<<<<<<< HEAD
+=======
+# Electric-Vehicles-on-Twitter
+>>>>>>> e6d30b5a8ebd91d32ebad0ab2903093bdebec31a

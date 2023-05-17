@@ -22,7 +22,6 @@ Here is an example of how to use dataScraper.py script file in repo:
 ## Exploratory Data Analysis
 Below, you can see the proportion of each make of car's tweets to other competitors over time. Go ahead and select different makes from the drop down menu on the right and see the trend over different time spans by changing the date on the horizental axis! Try it on fullscreen mode!
 
-```html
 <iframe src="./links/tableau-Popularoty of EV Makes on Twitter Over Time.html" width="600" height="400"></iframe>
 
 ## Sentiment Analysis
